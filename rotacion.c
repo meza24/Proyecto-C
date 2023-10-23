@@ -21,8 +21,8 @@ int main(int argc, char *argv[]) {
                 printf("-h: Opción de ayuda\n");
                 printf("-i [nombreArchivoEntrada]: Indicar path de imagen a ingresar\n");
                 printf("-o [nombreArchivoSalida]: Indicar path de imagen de salida\n");
-                printf("-j: Convertir a escala de grises en formato JPEG\n");
-                printf("-p: Convertir a escala de grises en formato PNG\n");
+                printf("-j: Rotación en formato JPEG\n");
+                printf("-p: Rotación en formato PNG\n");
                 return 0;
             case 'i':
                 strcpy(nombreArchivoEntrada, optarg);
